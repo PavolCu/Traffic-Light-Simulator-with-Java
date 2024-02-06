@@ -11,7 +11,7 @@ public class Main {
     System.out.println("Welcome to the traffic management system!");
 
     while (true) {
-      MenuOption = menu.getOption();
+      MenuOption option = menu.getOption();
 
       if(option == MenuOption.QUIT) {
         break;
