@@ -1,6 +1,14 @@
 package traffic;
 
 public class TrafficSystem {
+    private final int numberOfRoads;
+    private final int interval;
+
+    public TrafficSystem(int numberOfRoads, int interval) {
+        this.numberOfRoads = numberOfRoads;
+        this.interval = interval;
+    }
+
     public void handleOption(MenuOption option) {
         switch (option) {
             case ADD_ROAD:

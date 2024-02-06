@@ -14,7 +14,7 @@ public class Main {
     int interval = scanner.nextInt();
 
     Menu menu = new Menu(scanner);
-    TrafficSystem trafficSystem = new TrafficSystem();
+    TrafficSystem trafficSystem = new TrafficSystem(numberofRoads, interval);
 
 
     while (true) {
