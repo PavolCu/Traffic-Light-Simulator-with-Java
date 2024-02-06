@@ -7,10 +7,10 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Welcome to the traffic management system!");
 
-    System.out.println("Please enter the desired number of roads:");
+    System.out.println("Input the number of roads:");
     int numberofRoads = scanner.nextInt();
 
-    System.out.println("Please enter the interval at which the roads should open/closed:");
+    System.out.println("Input the interval:");
     int interval = scanner.nextInt();
 
     Menu menu = new Menu(scanner);
